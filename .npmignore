@@ -1,5 +1,6 @@
 node_modules
 .rpt2_cache
+.idea
 
 examples
 proto
@@ -10,3 +11,6 @@ src
 test
 tools
 docs
+
+.toolversions
+.travis.yml
