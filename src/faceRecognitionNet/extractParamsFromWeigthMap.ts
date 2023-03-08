@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 import { disposeUnusedWeightTensors, extractWeightEntryFactory, ParamMapping } from '../common';
 import { isTensor2D } from '../utils';

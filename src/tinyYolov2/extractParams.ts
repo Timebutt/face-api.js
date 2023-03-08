@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 import { extractConvParamsFactory } from '../common';
 import { extractSeparableConvParamsFactory } from '../common/extractSeparableConvParamsFactory';

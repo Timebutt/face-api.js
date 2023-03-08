@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 import { ConvParams, disposeUnusedWeightTensors, extractWeightEntryFactory, FCParams, ParamMapping } from '../common';
 import { NetParams, ONetParams, PNetParams, RNetParams, SharedParams } from './types';

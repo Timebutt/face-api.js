@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 import { Box, IDimensions } from '../classes';
 import { createCanvas, createCanvasFromMedia, getContext2dOrThrow } from '../dom';

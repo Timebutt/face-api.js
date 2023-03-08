@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 import { FaceLandmarks5 } from '../classes/FaceLandmarks5';
 import { ConvParams, FCParams } from '../common';

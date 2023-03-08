@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 import { padToSquare } from '../../../src';
 import { ones, zeros } from '../../utils';

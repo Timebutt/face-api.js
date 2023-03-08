@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 export type ExtractWeightsFunction = (numWeights: number) => Float32Array
 
