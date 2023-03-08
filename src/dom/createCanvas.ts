@@ -7,7 +7,7 @@ import { isMediaLoaded } from './isMediaLoaded';
 export function createCanvas({ width, height }: IDimensions): HTMLCanvasElement {
 
   const { createCanvasElement } = env.getEnv()
-  const canvas = createCanvasElement()
+  const canvas =  createCanvasElement()
   canvas.width = width
   canvas.height = height
   return canvas
