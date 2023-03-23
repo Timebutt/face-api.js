@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 import { convLayer } from '../common';
 import { fullyConnectedLayer } from '../common/fullyConnectedLayer';

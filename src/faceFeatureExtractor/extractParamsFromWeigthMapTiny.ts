@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 import { disposeUnusedWeightTensors, ParamMapping } from '../common';
 import { loadParamsFactory } from './loadParamsFactory';

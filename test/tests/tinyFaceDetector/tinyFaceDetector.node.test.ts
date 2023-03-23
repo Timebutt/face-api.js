@@ -5,7 +5,7 @@ import { expectFaceDetections } from '../../expectFaceDetections';
 import { expectFullFaceDescriptions } from '../../expectFullFaceDescriptions';
 import { expectFaceDetectionsWithLandmarks } from '../../expectFaceDetectionsWithLandmarks';
 import { expectedTinyFaceDetectorBoxes } from '../../expectedTinyFaceDetectorBoxes';
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 import { getTestEnv } from '../../env';
 
 describe('tinyFaceDetector - node', () => {

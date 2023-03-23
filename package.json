@@ -1,6 +1,6 @@
 {
-  "name": "face-api.js",
-  "version": "0.22.2",
+  "name": "@simondean/face-api.js",
+  "version": "0.22.5",
   "description": "JavaScript API for face detection and face recognition in the browser with tensorflow.js",
   "module": "./build/es6/index.js",
   "main": "./build/commonjs/index.js",
@@ -33,14 +33,13 @@
   "author": "justadudewhohacks",
   "license": "MIT",
   "dependencies": {
-    "@tensorflow/tfjs-core": "^4.2.0",
+    "@tensorflow/tfjs-node": "^4.2.0",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
-    "@tensorflow/tfjs-node": "^4.2.0",
     "@types/jasmine": "^3.5.9",
     "@types/node": "^13.9.2",
     "canvas": "^2.11.0",

@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from '@tensorflow/tfjs-node';
 
 import { FaceLandmarks68 } from '../classes/FaceLandmarks68';
 import { extractFaces, extractFaceTensors, TNetInput } from '../dom';
